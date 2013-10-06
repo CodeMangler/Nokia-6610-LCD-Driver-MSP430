@@ -25,7 +25,7 @@
 								<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=lnk_msp430g2231.cmd"/>
 								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
 								<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
-								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.1.0.01"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.5.0"/>
 								<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
 							</option>
 							<targetPlatform id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exe.targetPlatformDebug.369591412" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exe.targetPlatformDebug"/>
@@ -59,6 +59,10 @@
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
 								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.linkerID.XML_LINK_INFO.112535278" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.linkerID.XML_LINK_INFO" value="&quot;Nokia6610LCDDriver_linkInfo.xml&quot;" valueType="string"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD_SRCS.218449256" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD2_SRCS.1561136085" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__GEN_CMDS.1851905249" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__GEN_CMDS"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -88,7 +92,7 @@
 								<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=lnk_msp430g2231.cmd"/>
 								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
 								<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
-								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.1.0.01"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.5.0"/>
 								<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
 							</option>
 							<targetPlatform id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exe.targetPlatformRelease.373520427" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exe.targetPlatformRelease"/>
@@ -122,6 +126,10 @@
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
 								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.linkerID.XML_LINK_INFO.1482798774" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.linkerID.XML_LINK_INFO" value="&quot;Nokia6610LCDDriver_linkInfo.xml&quot;" valueType="string"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD_SRCS.1628527976" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD2_SRCS.1047831840" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__GEN_CMDS.68495734" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.3.exeLinker.inputType__GEN_CMDS"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -143,4 +151,6 @@
 			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.ti.ccstudio.core.TIGPPLanguage"/>
 		</project-mappings>
 	</storageModule>
+	<storageModule moduleId="scannerConfiguration"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>

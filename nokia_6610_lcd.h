@@ -47,6 +47,7 @@
 #define DISPON 0x29 // Display On
 #define MADCTL 0x36 // Memory Access Control
 #define COLMOD 0x3A // Pixel format/Color mode
+#define INVON 0x21 // Inversion ON
 
 // LCD Data Constants
 #define TWELVE_BITS_PER_PIXEL 0x03
@@ -151,6 +152,9 @@ void lcd_initialize(void)
 	// Exit SLEEPIN
 	lcd_write_command(SLEEPOUT);
 	
+	// Invert RGB settings
+	lcd_write_command(INVON);
+
 	// Color interface pixel format
 	lcd_write_command(COLMOD);
 	lcd_write_data(TWELVE_BITS_PER_PIXEL);
