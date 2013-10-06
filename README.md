@@ -1,5 +1,5 @@
-Nokia-6610-LCD-Driver-MSP430
-============================
+Nokia 6610 LCD Display Driver for MSP430
+=========================================
 
 This is a library to interface Nokia 6610 (6100, 6610, 7210, 7250 and 5100) color LCD displays with MSP430s. The code is specific to the displays containing Philips PCF8833 controllers (see below for details).
 
