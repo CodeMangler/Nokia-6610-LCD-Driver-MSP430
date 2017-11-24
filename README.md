@@ -16,4 +16,4 @@ These displays do have quirks of their own, but those are fairly minor compared 
 
 The other quirk is that these displays are driven by one of the two controllers: Philips PCF8833 or Epson S1D15G00. And it's not easy to tell which controller is in the display you've bought. There are minor differences in the controllers that can cause some confusion.
 
-This driver is based largely on the information provided here: [http://www.sparkfun.com/tutorial/Nokia%206100%20LCD%20Display%20Driver.pdf](http://www.sparkfun.com/tutorial/Nokia%206100%20LCD%20Display%20Driver.pdf) and the [PCF8833 datasheet](http://google.com/?q=Philips PCF8833 datasheet).
+This driver is based largely on the information provided here: [http://www.sparkfun.com/tutorial/Nokia%206100%20LCD%20Display%20Driver.pdf](http://www.sparkfun.com/tutorial/Nokia%206100%20LCD%20Display%20Driver.pdf) and the [PCF8833 datasheet](http://google.com/?q=Philips%20PCF8833%20datasheet).
